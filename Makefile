@@ -40,6 +40,13 @@ define Build/Compile
 			"./rootfs/po/ru/ssclash.po" \
 			"$(PKG_BUILD_DIR)/po/ru/ssclash.lmo"; \
 	fi
+
+	@mkdir -p $(PKG_BUILD_DIR)/po/zh-cn
+	@if [ -f "./rootfs/po/zh-cn/ssclash.po" ]; then \
+		$(STAGING_DIR_HOSTPKG)/bin/po2lmo \
+			"./rootfs/po/zh-cn/ssclash.po" \
+			"$(PKG_BUILD_DIR)/po/zh-cn/ssclash.lmo"; \
+	fi
 endef
 
 define Package/$(PKG_NAME)/conffiles
@@ -74,6 +81,12 @@ define Package/$(PKG_NAME)/install
 		$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n; \
 		$(INSTALL_DATA) "$(PKG_BUILD_DIR)/po/ru/ssclash.lmo" \
 			"$(1)/usr/lib/lua/luci/i18n/ssclash.ru.lmo"; \
+	fi
+
+	@if [ -f "$(PKG_BUILD_DIR)/po/zh-cn/ssclash.lmo" ]; then \
+		$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n; \
+		$(INSTALL_DATA) "$(PKG_BUILD_DIR)/po/zh-cn/ssclash.lmo" \
+			"$(1)/usr/lib/lua/luci/i18n/ssclash.zh-cn.lmo"; \
 	fi
 endef
 

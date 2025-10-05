@@ -1,0 +1,459 @@
+# SSClash 的简体中文翻译
+# 版权所有 (C) 2024-2025 ZeroChaos
+# 本文件与软件包遵循相同的许可协议发布。
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+### 菜单字符串 ###
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Rulesets"
+msgstr "规则集"
+
+msgid "Log"
+msgstr "日志"
+
+### 通用字符串 ###
+
+msgid "Please wait"
+msgstr "请稍候"
+
+msgid "Saving..."
+msgstr "保存中..."
+
+msgid "Deleting..."
+msgstr "删除中..."
+
+msgid "Creating..."
+msgstr "创建中..."
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Create"
+msgstr "创建"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Delete"
+msgstr "删除"
+
+### config.js 模块 ###
+
+msgid "Open Dashboard"
+msgstr "打开控制面板"
+
+msgid "Stop Service"
+msgstr "停止服务"
+
+msgid "Start Service"
+msgstr "启动服务"
+
+msgid "Clash is running"
+msgstr "Clash 正在运行"
+
+msgid "Clash stopped"
+msgstr "Clash 已停止"
+
+msgid "Clash Configuration"
+msgstr "Clash 配置"
+
+msgid "Your current Clash config. When applied, the changes will be saved and the service will be restarted."
+msgstr "您当前的 Clash 配置。应用后，更改将被保存且服务将重启。"
+
+msgid "Save & Apply Configuration"
+msgstr "保存并应用配置"
+
+msgid "Unable to start and enable service: %s"
+msgstr "无法启动并启用服务：%s"
+
+msgid "Unable to stop and disable service: %s"
+msgstr "无法停止并禁用服务：%s"
+
+msgid "Popup was blocked. Please allow popups for this site."
+msgstr "弹出窗口被拦截。请允许本网站的弹出窗口。"
+
+msgid "Service is not running."
+msgstr "服务未运行。"
+
+msgid "Error opening dashboard:"
+msgstr "打开控制面板时出错："
+
+msgid "Failed to open dashboard: %s"
+msgstr "无法打开控制面板：%s"
+
+msgid "Configuration saved successfully."
+msgstr "配置保存成功。"
+
+msgid "Service reloaded successfully."
+msgstr "服务重载成功。"
+
+msgid "Unable to save contents: %s"
+msgstr "无法保存内容：%s"
+
+### log.js 模块 ###
+
+msgid "--- Log truncated, skipped %d older lines ---"
+msgstr "--- 日志已截断，跳过 %d 行旧日志 ---"
+
+msgid "Error executing logread:"
+msgstr "执行 logread 时出错："
+
+msgid "Error reading logs: %s"
+msgstr "读取日志时出错：%s"
+
+### rulesets.js 模块 ###
+
+msgid "Local Rulesets"
+msgstr "本地规则集"
+
+msgid "Create New List"
+msgstr "创建新列表"
+
+msgid "Here you can manage local lists for use in rule-providers. Example usage in your config.yaml: type: file, format: text, path: ./lst/your-list.txt"
+msgstr "您可以在此管理用于 rule-providers 的本地列表。在 config.yaml 中的使用示例：type: file, format: text, path: ./lst/your-list.txt"
+
+msgid "Editor not initialized."
+msgstr "编辑器未初始化。"
+
+msgid "List \"%s\" saved successfully."
+msgstr "列表“%s”保存成功。"
+
+msgid "Failed to save list \"%s\": %s"
+msgstr "无法保存列表“%s”：%s"
+
+msgid "Delete Ruleset"
+msgstr "删除规则集"
+
+msgid "Are you sure you want to delete the list \"%s\"? This action cannot be undone."
+msgstr "确定要删除列表“%s”吗？此操作无法撤销。"
+
+msgid "List \"%s\" has been deleted."
+msgstr "列表“%s”已删除。"
+
+msgid "Failed to delete list \"%s\": %s"
+msgstr "无法删除列表“%s”：%s"
+
+msgid "Create New Ruleset"
+msgstr "创建新规则集"
+
+msgid "e.g., my-custom-list"
+msgstr "例如，my-custom-list"
+
+msgid "Invalid name. Only letters, numbers, underscores, and hyphens are allowed."
+msgstr "名称无效。仅允许字母、数字、下划线和连字符。"
+
+msgid "List Name"
+msgstr "列表名称"
+
+msgid "New list \"%s\" created."
+msgstr "新列表“%s”已创建。"
+
+msgid "Failed to create list: %s"
+msgstr "无法创建列表：%s"
+
+msgid "Cannot read ruleset directory: %s"
+msgstr "无法读取规则集目录：%s"
+
+msgid "A list with this name already exists."
+msgstr "同名列表已存在。"
+
+### settings.js 模块 ###
+
+msgid "WAN Interfaces"
+msgstr "WAN 接口"
+
+msgid "Ethernet Interfaces"
+msgstr "以太网接口"
+
+msgid "WiFi Interfaces"
+msgstr "WiFi 接口"
+
+msgid "USB Interfaces"
+msgstr "USB 接口"
+
+msgid "VPN Interfaces"
+msgstr "VPN 接口"
+
+msgid "Virtual Interfaces"
+msgstr "虚拟接口"
+
+msgid "Other Interfaces"
+msgstr "其他接口"
+
+msgid "Mihomo Kernel Management"
+msgstr "Mihomo 内核管理"
+
+msgid "Download and manage the Mihomo (Clash Meta) kernel binary."
+msgstr "下载并管理 Mihomo（Clash Meta）内核二进制文件。"
+
+msgid "Interface Processing Mode"
+msgstr "接口处理模式"
+
+msgid "Choose how to handle network interfaces for proxy processing."
+msgstr "选择如何处理用于代理的网络接口。"
+
+msgid "Automatic Interface Detection"
+msgstr "接口自动检测"
+
+msgid "Additional Settings"
+msgstr "附加设置"
+
+msgid "Exclude Mode (Universal approach)"
+msgstr "排除模式（通用方式）"
+
+msgid "Process traffic from ALL interfaces except selected ones. Automatically detects and excludes WAN. Recommended for most users."
+msgstr "处理所有接口的流量，除了所选接口。自动检测并排除 WAN。推荐大多数用户使用。"
+
+msgid "Explicit Mode (Precise control)"
+msgstr "显式模式（精确控制）"
+
+msgid "Process traffic ONLY from selected interfaces. More secure but requires manual configuration. Recommended for advanced users."
+msgstr "仅处理所选接口的流量。更安全但需要手动配置。推荐高级用户使用。"
+
+msgid "Automatically detect LAN bridge interface"
+msgstr "自动检测 LAN 桥接接口"
+
+msgid "When enabled, automatically finds the main LAN bridge. Disable to manually select specific interfaces."
+msgstr "启用时，自动查找主 LAN 桥接。禁用可手动选择特定接口。"
+
+msgid "Automatically detect WAN interface"
+msgstr "自动检测 WAN 接口"
+
+msgid "When enabled, automatically detects and excludes WAN interface. Disable to manually select interfaces to exclude."
+msgstr "启用时，自动检测并排除 WAN 接口。禁用可手动选择要排除的接口。"
+
+msgid "Select interfaces to process"
+msgstr "选择要处理的接口"
+
+msgid "Traffic from these interfaces will be processed by the proxy."
+msgstr "这些接口的流量将由代理处理。"
+
+msgid "Select interfaces to exclude"
+msgstr "选择要排除的接口"
+
+msgid "Traffic from these interfaces will bypass the proxy (direct routing)."
+msgstr "这些接口的流量将绕过代理（直接路由）。"
+
+msgid "Block QUIC traffic (UDP port 443)"
+msgstr "阻止 QUIC 流量（UDP 端口 443）"
+
+msgid "When enabled, blocks QUIC traffic on UDP port 443. This can improve proxy effectiveness for some services like YouTube."
+msgstr "启用时，阻止 UDP 端口 443 上的 QUIC 流量。这可以提高某些服务（如 YouTube）的代理效果。"
+
+msgid "Kernel Status"
+msgstr "内核状态"
+
+msgid "Installed"
+msgstr "已安装"
+
+msgid "Not Installed"
+msgstr "未安装"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "System Architecture"
+msgstr "系统架构"
+
+msgid "Latest Available"
+msgstr "最新可用"
+
+msgid "Update Available"
+msgstr "有可用更新"
+
+msgid "Kernel is up to date"
+msgstr "内核已是最新版本"
+
+msgid "Mihomo kernel binary not found"
+msgstr "未找到 Mihomo 内核二进制文件"
+
+msgid "Failed to check latest version"
+msgstr "无法检查最新版本"
+
+msgid "Error checking status"
+msgstr "检查状态时出错"
+
+msgid "Mihomo (version detected)"
+msgstr "Mihomo（已检测版本）"
+
+msgid "Installed (%dMB)"
+msgstr "已安装（%dMB）"
+
+msgid "Download Latest Kernel"
+msgstr "下载最新内核"
+
+msgid "Download Update"
+msgstr "下载更新"
+
+msgid "Reinstall Kernel"
+msgstr "重新安装内核"
+
+msgid "Downloading..."
+msgstr "下载中..."
+
+msgid "Checking..."
+msgstr "检查中..."
+
+msgid "Refresh Status"
+msgstr "刷新状态"
+
+msgid "Restart Service"
+msgstr "重启服务"
+
+msgid "Save Settings"
+msgstr "保存设置"
+
+msgid "Clear All Interfaces"
+msgstr "清除所有接口选择"
+
+msgid "Mode: Explicit (process only selected)"
+msgstr "模式：显式（仅处理所选）"
+
+msgid "Mode: Exclude (process all except selected)"
+msgstr "模式：排除（处理所有除所选外）"
+
+msgid "Auto-detected LAN: %s ✓"
+msgstr "自动检测到的 LAN：%s ✓"
+
+msgid "Auto-detected WAN: %s ✓"
+msgstr "自动检测到的 WAN：%s ✓"
+
+msgid "Manual selection: %s"
+msgstr "手动选择：%s"
+
+msgid "Manual exclusions: %s"
+msgstr "手动排除：%s"
+
+msgid "No interfaces configured"
+msgstr "未配置接口"
+
+msgid "No exclusions configured"
+msgstr "未配置排除项"
+
+msgid "Available LAN bridge: %s"
+msgstr "可用的 LAN 桥接：%s"
+
+msgid "No LAN bridge detected"
+msgstr "未检测到 LAN 桥接"
+
+msgid "Available WAN interface: %s"
+msgstr "可用的 WAN 接口：%s"
+
+msgid "No WAN interface detected"
+msgstr "未检测到 WAN 接口"
+
+msgid "Settings saved. Please restart the Clash service for changes to take effect."
+msgstr "设置已保存。请重启 Clash 服务使更改生效。"
+
+msgid "Failed to save settings: %s"
+msgstr "无法保存设置：%s"
+
+msgid "Clash service restarted successfully."
+msgstr "Clash 服务已成功重启。"
+
+msgid "Failed to restart Clash service: %s"
+msgstr "无法重启 Clash 服务：%s"
+
+msgid "Downloading mihomo kernel..."
+msgstr "正在下载 mihomo 内核..."
+
+msgid "Mihomo kernel downloaded and installed successfully!"
+msgstr "Mihomo 内核已成功下载并安装！"
+
+msgid "Failed to download mihomo kernel: %s"
+msgstr "无法下载 mihomo 内核：%s"
+
+msgid "Failed to get release information"
+msgstr "无法获取发布信息"
+
+msgid "No binary found for architecture: %s"
+msgstr "未找到适用于该架构的二进制文件：%s"
+
+msgid "HTTP %d: %s"
+msgstr "HTTP %d：%s"
+
+msgid "Latest release is a pre-release"
+msgstr "最新发布版本是预发布版"
+
+msgid "Download failed"
+msgstr "下载失败"
+
+msgid "Extraction failed"
+msgstr "解压失败"
+
+msgid "Failed to read /sys/class/net:"
+msgstr "无法读取 /sys/class/net："
+
+msgid "Failed to execute ip link:"
+msgstr "无法执行 ip link："
+
+msgid "LuCI network API not available:"
+msgstr "LuCI 网络 API 不可用："
+
+msgid "LuCI network.getNetworks() not available:"
+msgstr "LuCI network.getNetworks() 不可用："
+
+msgid "No network interfaces found on this system"
+msgstr "本系统未找到网络接口"
+
+msgid "UCI network detection failed, using fallback:"
+msgstr "UCI 网络检测失败，使用备用方法："
+
+msgid "Failed to detect LAN bridge via ip command:"
+msgstr "通过 ip 命令无法检测 LAN 桥接："
+
+msgid "Failed to detect LAN bridge:"
+msgstr "无法检测 LAN 桥接："
+
+msgid "UCI WAN detection failed, using fallback:"
+msgstr "UCI WAN 检测失败，使用备用方法："
+
+msgid "Failed to read route table:"
+msgstr "无法读取路由表："
+
+msgid "Failed to detect WAN interface:"
+msgstr "无法检测 WAN 接口："
+
+msgid "Failed to detect architecture:"
+msgstr "无法检测架构："
+
+msgid "Failed to get latest release:"
+msgstr "无法获取最新发布版本："
+
+msgid "Failed to update kernel status:"
+msgstr "无法更新内核状态："
+
+msgid "Failed to update interface checkboxes:"
+msgstr "无法更新接口复选框："
+
+msgid "Failed to update auto detect settings:"
+msgstr "无法更新自动检测设置："
+
+msgid "Failed to detect interfaces:"
+msgstr "无法检测接口："
+
+msgid "Failed to re-detect interfaces:"
+msgstr "无法重新检测接口："
+
+msgid "Failed to uncheck detected %s interface:"
+msgstr "无法取消选中已检测的 %s 接口："
+
+msgid "Restart Clash service after installing or updating the kernel"
+msgstr "安装或更新内核后请重启 Clash 服务"
+
+msgid "Restart Clash service after saving changes"
+msgstr "保存更改后请重启 Clash 服务"
+
+msgid "AUTO"
+msgstr "自动"
